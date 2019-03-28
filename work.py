@@ -25,7 +25,6 @@ with open(filename) as f:
         min_vol = float(row[9]) * 10
         min_vols.append(min_vol)
 
-
         max_temp = float(row[18])
         max_temps.append(max_temp)
 
